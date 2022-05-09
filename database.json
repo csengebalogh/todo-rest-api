@@ -1,0 +1,28 @@
+{
+  "employees": [
+    {
+      "name": "Béla",
+      "city": "Szolnok",
+      "salary": "563453",
+      "id": 1
+    },
+    {
+      "name": "Ernyős Valér",
+      "city": "Szolnok",
+      "salary": "563453",
+      "id": 2
+    },
+    {
+      "name": "Béla",
+      "city": "Szolnok",
+      "salary": "123456",
+      "id": 3
+    },
+    {
+      "name": "Balogh Csenge",
+      "city": "Bicske",
+      "salary": "45654",
+      "id": 4
+    }
+  ]
+}
