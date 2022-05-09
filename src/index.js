@@ -10,6 +10,19 @@ function renderTasks(tasks) {
     let tdDesc = document.createElement('td')
     let tdDeadline = document.createElement('td')
     let tdIsDone = document.createElement('td')
+    let tdEdit = document.createElement('td')
+    let tdDelete = document.createElement('td')
+
+    let editButton = document.createElement('button')
+    editButton.className = 'btn btn-warning'
+    editButton.innerHTML = '<i class="bi bi-pencil-fill"></i>'
+    let delButton = document.createElement('button')
+    delButton.className = 'btn btn-danger'
+    delButton.innerHTML = '<i class="bi bi-trash-fill"></i>'
+
+
+    tdEdit.appendChild(editButton)
+    tdDelete.appendChild(delButton)
 
     tdId.innerHTML = task.id
     tdDesc.innerHTML = task.desc
@@ -24,9 +37,10 @@ function renderTasks(tasks) {
     tr.appendChild(tdDesc)
     tr.appendChild(tdDeadline)
     tr.appendChild(tdIsDone)
+    tr.appendChild(tdEdit)
+    tr.appendChild(tdDelete)
 
     table.appendChild(tr)
-
 
   })
 
