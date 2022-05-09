@@ -1,7 +1,8 @@
 const cl = console.log
 
-import { renderTasks, getTasks } from "./modules/index.js"
+import { getTasks } from "./modules/index.js"
 
+if (document.URL.includes('tasks.html')) {
+  getTasks()
+}
 
-
-getTasks()

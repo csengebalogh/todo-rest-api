@@ -48,5 +48,4 @@ function renderTasks(tasks) {
 
 }
 
-
 export default renderTasks
