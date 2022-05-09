@@ -1,28 +1,16 @@
 {
-  "employees": [
+  "tasks": [
     {
-      "name": "Béla",
-      "city": "Szolnok",
-      "salary": "563453",
-      "id": 1
+      "id": 1,
+      "desc": "Take out trash",
+      "deadline": null,
+      "isDone": false
     },
     {
-      "name": "Ernyős Valér",
-      "city": "Szolnok",
-      "salary": "563453",
-      "id": 2
-    },
-    {
-      "name": "Béla",
-      "city": "Szolnok",
-      "salary": "123456",
-      "id": 3
-    },
-    {
-      "name": "Balogh Csenge",
-      "city": "Bicske",
-      "salary": "45654",
-      "id": 4
+      "id": 2,
+      "desc": "Cook dinner",
+      "deadline": "2022.02.02",
+      "isDone": true
     }
   ]
 }
